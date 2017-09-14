@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "173356522509",
+    "firebase_url": "https://cdiffense-patient-app.firebaseio.com",
+    "project_id": "cdiffense-patient-app",
+    "storage_bucket": "cdiffense-patient-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173356522509:android:fb04b12c3ecf39ba",
+        "android_client_info": {
+          "package_name": "com.parallel6.cdiffpatient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173356522509-hdgs8pmmgp958g5qm3aetk0qrlrmehhk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.parallel6.cdiffpatient",
+            "certificate_hash": "3377163ddf1d202c8a87a7415b55b6cd037e3455"
+          }
+        },
+        {
+          "client_id": "173356522509-stsps5mto6id3rjmte6lig0kf7lp71v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVxOyISrqZ1-i49YR1PRgrPjKxpiyhvug"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173356522509-stsps5mto6id3rjmte6lig0kf7lp71v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

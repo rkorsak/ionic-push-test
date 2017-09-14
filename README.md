@@ -1,26 +1,13 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+A simple blank Ionic project with phonegap-plugin-push added.
 
-## How to use this template
+## To run
+Ensure Ionic and Cordova are installed globally (along with Android SDKs etc.)
+`npm install`
+`ionic cordova platform add android`
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+And then try a build with
+`ionic cordova build android --debug --device`
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
-
-### With the Ionic CLI:
-
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
-
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
-
-Then, to run it, cd into `myBlank` and run:
-
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
-
-Substitute ios for android if not on a Mac.
-
+If you need to troubleshoot, it may be worth it to try:
+`cordova plugin remove phonegap-plugin-push --no-save && cordova plugin add phonegap-plugin-push`
+and then rebuild.
